@@ -29,9 +29,9 @@
 ## 用到的第三方库
 
 - [leakcanary](https://github.com/square/leakcanary)
-	：检测应用内存泄漏问题，这个都知道吧
+	：检测应用内存泄漏问题,可以有效的防止的app闪退
 - [butterknife](https://github.com/JakeWharton/butterknife)
-	：帮助Android控件和回调的进行依赖注入，JakeWharton大神的力作
+	：帮助Android控件和回调的进行依赖注入，更方便编写简洁的代码，JakeWharton大神的力作
 - [dagger2](https://github.com/google/dagger)
 	：Android和Java依赖注入库
 - [rxjava](https://github.com/ReactiveX/RxJava)
