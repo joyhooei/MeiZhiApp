@@ -7,7 +7,7 @@
 ##### 项目结构：
 
 ![](https://raw.githubusercontent.com/Rukey7/ScreenShot/master/MvpApp/project.png)
- ![image](https://github.com/wlcaption/AppImages/blob/master/screenshots/meizi.jpg)
+![image](https://github.com/wlcaption/AppImages/blob/master/screenshots/meizi.jpg)
 
 ##### 应用截图：
 
