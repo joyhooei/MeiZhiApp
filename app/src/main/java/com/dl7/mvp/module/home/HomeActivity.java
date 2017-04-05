@@ -23,11 +23,13 @@ import com.dl7.mvp.module.news.main.NewsMainFragment;
 import com.dl7.mvp.module.photo.main.PhotoMainFragment;
 import com.dl7.mvp.module.video.main.VideoMainFragment;
 import com.dl7.mvp.utils.SnackbarUtils;
+import com.orhanobut.logger.Logger;
 import com.tbruyelle.rxpermissions.RxPermissions;
 
 import java.io.File;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 import rx.functions.Action1;
 
 /**
@@ -41,7 +43,6 @@ public class HomeActivity extends BaseActivity implements NavigationView.OnNavig
     NavigationView mNavView;
     @BindView(R.id.drawer_layout)
     DrawerLayout mDrawerLayout;
-
 
     // 本来想用这个来存储Fragment做切换，不过貌似fragment会被回收产生异常，估计内存占用太大
 //    private SparseArray<Fragment> mSparseFragments = new SparseArray<>();
