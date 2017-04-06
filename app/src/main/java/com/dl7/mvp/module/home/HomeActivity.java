@@ -62,6 +62,9 @@ public class HomeActivity extends BaseActivity implements NavigationView.OnNavig
                 case R.id.nav_videos:
                     replaceFragment(R.id.fl_container, new VideoMainFragment(), mSparseTags.get(R.id.nav_videos));
                     break;
+                case R.id.nav_usercenter:
+                    replaceFragment(R.id.fl_container, new PhotoMainFragment(), mSparseTags.get(R.id.nav_usercenter));
+                    break;
                 case R.id.nav_setting:
                     SettingsActivity.launch(HomeActivity.this);
                     break;

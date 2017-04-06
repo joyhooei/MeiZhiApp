@@ -68,7 +68,8 @@ public class PhotoMainFragment extends BaseFragment<IRxBusPresenter> implements 
         fragments.add(new BeautyListFragment());
         fragments.add(new WelfareListFragment());
         fragments.add(new PhotoNewsFragment());
-        mPagerAdapter.setItems(fragments, new String[] {"美女", "福利", "生活"});
+        fragments.add(new BeautyListFragment());
+        mPagerAdapter.setItems(fragments, new String[] {"美女", "福利", "生活","美眉"});
         mViewPager.setAdapter(mPagerAdapter);
         mTabLayout.setViewPager(mViewPager);
         mPresenter.registerRxBus(LoveEvent.class, new Action1<LoveEvent>() {
